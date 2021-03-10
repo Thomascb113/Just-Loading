@@ -1,0 +1,110 @@
+html{
+	background-color: pink;
+}
+.redBall{
+	height: 40px;
+	width: 40px;
+	border-radius: 2em;
+
+	background-color: red;
+
+	position: absolute;
+	top: 50%; left: 50%;
+
+	animation: redBall 2s infinite;
+}
+
+.blueBall{
+	height: 40px;
+	width: 40px;
+	border-radius: 2em;
+
+	background-color: blue;
+
+	position: absolute;
+	top: 50%; left: 50%;
+
+	animation: blueBall 2s infinite;
+}
+
+.greenBall{
+	height: 40px;
+	width: 40px;
+	border-radius: 2em;
+
+	background-color: green;
+
+	position: absolute;
+	top: 50%; left: 50%;
+
+	animation: greenBall 2s infinite;
+}
+
+.yellowBall{
+	height: 40px;
+	width: 40px;
+	border-radius: 2em;
+
+	background-color: yellow;
+
+	position: absolute;
+	top: 50%; left: 50%;
+
+	animation: yellowBall 2s infinite;
+}
+
+@keyframes redBall{
+	0%{
+		transform: translateX(-100px);
+	}
+
+	50%{
+		transform: translateX(100px);
+	}
+
+	100%{
+		transform: translateX(-100px);
+	}
+}
+
+@keyframes blueBall{
+	0%{
+		transform: translateX(100px);
+	}
+
+	50%{
+		transform: translateX(-100px);
+	}
+
+	100%{
+		transform: translateX(100px);
+	}
+}
+
+@keyframes greenBall{
+	0%{
+		transform: translateY(-100px);
+	}
+
+	50%{
+		transform: translateY(100px);
+	}
+
+	100%{
+		transform: translateY(-100px);
+	}
+}
+
+@keyframes yellowBall{
+	0%{
+		transform: translateY(100px);
+	}
+
+	50%{
+		transform: translateY(-100px);
+	}
+
+	100%{
+		transform: translateY(100px);
+	}
+}
